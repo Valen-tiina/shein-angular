@@ -11,8 +11,25 @@
 }
 .container{
     display: flex;
-    width: 20%;
-    height: 30vh;
-    padding:10px 150px;
+    justify-content: center;
+    text-align: center;
+    padding: 150px;
     gap: 35px;
+    cursor: pointer;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card img{
+    width: 42vh;
+    object-fit: cover;
+    height: 57vh;
+}
+h2, h3{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: rgb(115, 41, 145);
 }

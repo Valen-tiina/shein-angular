@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { ProductCard } from '../product-card/product-card';
 
 @Component({
-  selector: 'app-product-list',
+  selector: 'app-bolsos-list',
   imports: [ProductCard],
-  templateUrl: './product-list.html',
-  styleUrl: './product-list.css'
+  templateUrl: './bolsos-list.html',
+  styleUrl: './bolsos-list.css'
 })
-export class ProductList {
+export class BolsosList {
 
 }

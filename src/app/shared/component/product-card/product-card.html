@@ -1,7 +1,10 @@
 <div class="card">
-    <img src="/assets/" alt="">
-    <h2>Product Name</h2>
+    <img [src]="img()" alt="producto">
+    <h2>{{name()}}</h2>
     <div class="cart">
-        <p>$Precioo</p>
+        <p>{{price()}}</p>
+        <p [ngClass]="available() ? 'disponible' : 'agotado'">
+            {{ available() ? 'Disponible' : 'Agotado' }}
+        </p>
     </div>
 </div>

@@ -1,18 +1,19 @@
 section {
     display: flex;
     font-family: "Poppins", sans-serif;
-    background:linear-gradient(to left, rgb(255, 220, 226),rgb(233, 135, 151)) ;
-    padding: 20px 0;
-    color: rgb(255, 255, 255);
+    /* background:linear-gradient(to left, rgb(255, 159, 175),rgb(255, 194, 212)); */
+    background-color: rgb(255, 239, 250);
+    padding: 4vh 0;
+    color: rgb(129, 15, 62);
     justify-content: center;
-    gap: 400px;
+    gap: 10vw;
     bottom: 0;
+    align-items: center;
 }
 
 li{
     list-style-type: none;
     font-size: 1.3rem;
-    color: rgb(63, 25, 63);
 }
 #bolder{
     font-weight: bolder;
@@ -24,8 +25,8 @@ li{
     line-height: 1;
 }
 .copyright{
-    background-color: rgb(243, 155, 170);
+    background-color: rgb(255, 239, 250);
     text-align: center;
-    color: white;
+    color: rgb(255, 192, 216);
     font-family: "Poppins", sans-serif;
 }

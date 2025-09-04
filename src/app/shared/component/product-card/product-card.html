@@ -2,9 +2,12 @@
     <img [src]="img()" alt="producto">
     <h2>{{name()}}</h2>
     <div class="cart">
-        <p>{{price()}}</p>
+        <p>${{price()}}</p>
         <p [ngClass]="available() ? 'disponible' : 'agotado'">
             {{ available() ? 'Disponible' : 'Agotado' }}
         </p>
+            <div>
+                <button>❤️</button>
+            </div>
     </div>
 </div>

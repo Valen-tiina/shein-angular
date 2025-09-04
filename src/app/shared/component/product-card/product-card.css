@@ -3,3 +3,21 @@
     height: 400px;
     object-fit: cover;
 }
+.card{
+        font-family: "Poppins", sans-serif;
+        max-width: 400px;
+}
+h2{
+    color: rgb(136, 12, 33);
+}
+.cart{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: blue;
+
+}
+button:active{
+    background-color: rgb(43, 255, 0);
+}

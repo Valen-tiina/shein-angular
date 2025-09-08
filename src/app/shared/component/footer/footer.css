@@ -4,16 +4,17 @@ section {
     /* background:linear-gradient(to left, rgb(255, 159, 175),rgb(255, 194, 212)); */
     background-color: rgb(255, 239, 250);
     padding: 4vh 0 0 0;
-    color: rgb(129, 15, 62);
     justify-content: center;
     gap: 10vw;
     bottom: 0;
     align-items: center;
 }
 
-li{
+li, a{
     list-style-type: none;
     font-size: 1.3rem;
+    color: rgb(129, 15, 62);
+    text-decoration: none;
 }
 #bolder{
     font-weight: bolder;

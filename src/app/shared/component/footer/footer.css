@@ -3,7 +3,7 @@ section {
     font-family: "Poppins", sans-serif;
     /* background:linear-gradient(to left, rgb(255, 159, 175),rgb(255, 194, 212)); */
     background-color: rgb(255, 239, 250);
-    padding: 4vh 0;
+    padding: 4vh 0 0 0;
     color: rgb(129, 15, 62);
     justify-content: center;
     gap: 10vw;
@@ -29,4 +29,7 @@ li{
     text-align: center;
     color: rgb(255, 192, 216);
     font-family: "Poppins", sans-serif;
+}
+p{
+    margin: 0;
 }

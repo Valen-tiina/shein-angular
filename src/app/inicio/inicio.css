@@ -9,22 +9,25 @@
     height: 60vh;
     border-radius: 20px;
 }
-.container{
+.container {
     display: flex;
-    justify-content: center;
+    justify-content: center;   /* centra horizontalmente */
+    align-items: center;       /* centra verticalmente */
     text-align: center;
-    padding: 150px;
+    padding: 150px 0;
     gap: 35px;
     cursor: pointer;
     flex-wrap: wrap;
+    margin: 0 auto;            /* centra el contenedor en la página */
 }
+
 .card{
     display: flex;
     flex-direction: column;
     
 }
 .card img{
-    width: 42vh;
+    width: 40vh;
     object-fit: cover;
     height: 57vh;
     border-radius: 10px;

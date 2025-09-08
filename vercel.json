@@ -1,7 +1,0 @@
-{
-  "buildCommand": "ng build --configuration=production",
-  "outputDirectory": "dist/shein",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}

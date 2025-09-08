@@ -1,4 +1,11 @@
 {
+  "builds": [
+    {
+      "src": "dist/shein-angular/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "outputDirectory": "dist/shein-angular",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

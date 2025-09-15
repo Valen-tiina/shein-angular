@@ -12,7 +12,7 @@ export class ProductCard {
   name = input<string>();
   price = input<number>();
   available = input<boolean>();
-
+  desc = input<string>();
   modal = signal(false);
 
   mostrarModal() {

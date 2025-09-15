@@ -5,9 +5,10 @@
     <h2>{{ name() }}</h2>
 
     <div class="cart">
-      <p>\${{ price() }}</p>
+      <p>${{ price() }}</p>
       <p [ngClass]="available() ? 'disponible' : 'agotado'">
         {{ available() ? 'Disponible' : 'Agotado' }}
+      
     </div>
 
     <div class="botones">
@@ -31,9 +32,7 @@
 
         <p><strong>Precio:</strong> ${{ price() }}</p>
         <p><strong>Estado:</strong> {{ available() ? 'Disponible' : 'Agotado' }}</p>
-        <p>
-          ¿Deseas comprarlo? Haz click en el icono del carrito
-        </p>
+       <p>{{ desc()}}</p>
       </div>
     </div>
   </div>

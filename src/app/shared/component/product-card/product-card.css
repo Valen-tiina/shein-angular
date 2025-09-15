@@ -73,9 +73,11 @@ button {
 }
 
 .modal-content {
+  display: flex;
   background: #fff;
+  align-content: center;
   border-radius: 12px;
-  padding: 20px;
+  padding: 40px;
   width: 500px;
   max-width: 90%;
   text-align: center;
@@ -87,6 +89,7 @@ button {
   max-width: 80%;
   border-radius: 8px;
   margin: 10px 0;
+  align-self: center;
 }
 
 .cerrar {

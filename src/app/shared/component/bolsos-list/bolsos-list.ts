@@ -22,63 +22,63 @@ export class BolsosList {
       name: 'Bolso de hombro',
       price: 38000,
       available: true,
-      desc: ''
+      desc: 'Por el momento solo tenemos disponible en color negro'
     },
     {
       img: '/assets/products/bolsos/bag3.jpg',
       name: 'Bolso de hombro con correa ajustable',
       price: 45500,
       available: true,
-      desc: ''
+      desc: 'Cuenta con un lindo moñitoo'
     },
     {
       img: '/assets/products/bolsos/bag4.jpg',
-      name: 'Bolso de mano grande - negro',
+      name: 'Bolso de mano grande',
       price: 62000,
       available: true,
-      desc: ''
+      desc: 'Michael Kors ahora en Venus, no incluye el llavero'
     },
     {
       img: '/assets/products/bolsos/bag5.jpg',
-      name: 'Bolso de mano grande - cafe',
+      name: 'Bolso de mano grande ',
       price: 65000,
       available: true,
-      desc: ''
+      desc: 'Bolso Michael Kors en cafe'
     },
     {
       img: '/assets/products/bolsos/bag6.jpg',
       name: 'Bolso negro con correa ajustable',
       price: 47800,
       available: true,
-      desc: ''
+      desc: 'Correa ajustable'
     },
     {
       img: '/assets/products/bolsos/bag7.jpg',
-      name: 'Bolsito lindo',
+      name: 'Bolso Gucci',
       price: 35000,
       available: true,
-      desc: ''
+      desc: 'Perfecto para el dia a dia, correa ajustable'
     },
     {
       img: '/assets/products/bolsos/bag8.jpg',
       name: 'Bolso pequeño de hombro vinotinto',
       price: 45000,
       available: true,
-      desc: ''
+      desc: 'Material: cuero'
     },
     {
       img: '/assets/products/bolsos/bag9.jpg',
-      name: 'Bolso pequeño - cafe',
+      name: 'Bolso pequeño ',
       price: 57000,
       available: true,
-      desc: ''
+      desc: 'Color cafe'
     },
     {
       img: '/assets/products/bolsos/bag10.jpg',
       name: 'Bolso con moño y correa ajustable',
       price: 60000,
       available: true,
-      desc: ''
+      desc: 'Moño color celeste y correa ajustable'
     }
   ])
 }
